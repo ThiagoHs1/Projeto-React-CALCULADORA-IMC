@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto, sans-serif;
+    list-style: none ;
+}
+
+body {
+    background-color: rgb(203, 255, 255);
+    max-width: 640px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+input {
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+
+
+
+
+p {
+    font-size: 20px;
+}
