@@ -3,10 +3,10 @@ import { useState } from 'react'
 import styles from '../../app.css'
 
 const Formulario = () => {
-    let [MateriaA, setMateriaA] = useState(0);
-    let [MateriaB, setMateriaB] = useState(0);
-    let [MateriaC, setMateriaC] = useState(0);
-    let [nome, setNome] = useState(0);
+    const [MateriaA, setMateriaA] = useState(0);
+    const [MateriaB, setMateriaB] = useState(0);
+    const [MateriaC, setMateriaC] = useState(0);
+    const [nome, setNome] = useState(0);
 
     const AlteraNome = (e) => {
         setNome(e.target.value);
