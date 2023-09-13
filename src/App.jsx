@@ -7,7 +7,7 @@ function App() {
 
   return (
   <div>
-    <h1>Calcula Médias em REACT</h1>
+    <h1>Calcula IMC em REACT</h1>
     <Formulario />
 </div>
   )
